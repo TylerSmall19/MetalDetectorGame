@@ -11,17 +11,10 @@ body
     background-size: 100% 100%;
 }
 
-.transparent-holder
-{
-    width: 125px;
-    margin: 250px auto;
-    background: black;
-}
-
 .button-holder
 {
     width: 125px;
-    margin: 250px auto;
+    margin: 15px auto;
 }
 
 .difficulty-btn
@@ -39,6 +32,20 @@ body
     margin: 0 auto;
     font-size: 1.6em;
     color: whitesmoke;
+}
+
+.game-instructions 
+{
+    width: 35%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.game-instructions p
+{
+    font-size: 1.2em;
+    line-height: 24px;
 }
 
 [data-difficulty="easy"]
